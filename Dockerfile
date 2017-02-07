@@ -8,6 +8,7 @@ RUN apt-get update \
     libmcrypt-dev \
     libpng12-dev \
     libxslt1-dev \
+    git \
     vim \
     wget \
     lynx \
