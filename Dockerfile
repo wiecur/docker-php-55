@@ -32,6 +32,7 @@ RUN curl -sS https://getcomposer.org/installer | \
     php -- \
       --install-dir=/usr/local/bin \
       --filename=composer \
+      --version=1.1.2
 
 # Install Node.js
 RUN curl -sL  https://deb.nodesource.com/setup_7.x | bash - && \
