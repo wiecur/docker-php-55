@@ -13,6 +13,7 @@ RUN apt-get update \
     wget \
     lynx \
     psmisc \
+    php5-imagic \
   && apt-get clean
 
 RUN docker-php-ext-configure \
