@@ -14,6 +14,8 @@ RUN apt-get update \
     lynx \
     psmisc \
     php5-imagick \
+    yui-compressor \
+    jpegoptim \
   && apt-get clean
 
 RUN docker-php-ext-configure \
