@@ -14,6 +14,7 @@ RUN apt-get update \
     lynx \
     psmisc \
     php5-imagick \
+    imagemagick \
     yui-compressor \
     jpegoptim \
   && apt-get clean
