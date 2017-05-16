@@ -13,9 +13,9 @@ RUN apt-get update \
     wget \
     lynx \
     psmisc \
-    php5-imagick \
     yui-compressor \
     jpegoptim \
+    libmagickwand-dev \
   && apt-get clean
 
 RUN docker-php-ext-configure \
@@ -30,6 +30,9 @@ RUN docker-php-ext-configure \
     zip \
     opcache \
     soap
+
+RUN pecl install imagick \
+    && docker-php-ext-enable imagick
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | \
