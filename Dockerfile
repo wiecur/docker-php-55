@@ -16,6 +16,7 @@ RUN apt-get update \
     yui-compressor \
     jpegoptim \
     cron \
+    supervisor \
     libmagickwand-dev \
   && apt-get clean
 
