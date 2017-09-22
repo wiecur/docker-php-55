@@ -1,4 +1,4 @@
-FROM php:5.6.27-fpm
+FROM php:5.5.24-fpm
 
 RUN apt-get update \
   && apt-get install -y \
