@@ -1,7 +1,7 @@
 # Docker container PHP for Magento
 
 Included:
- - PHP Version 5.6.27 (FPM)
+ - PHP Version 5.5.24 (FPM)
  - Composer
  - Node.js
  - MageRun
